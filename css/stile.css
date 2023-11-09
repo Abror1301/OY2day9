@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  background-image: url(../img/bc.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 121px 165px;
+}
+
+.canteiner {
+  width: 1111px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.card {
+  width: 500px;
+}
+
+.card_title {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.521px;
+  margin-bottom: 11px;
+}
+
+.card_text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.box_card {
+  margin-bottom: 24px;
+}
+
+.box_card_name {
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.268px;
+  padding: 17px 110px;
+  border-radius: 10px;
+  background: #5E54A4;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.box_card_text {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.268px;
+}
+
+.fieldset {
+  padding: 40px;
+  width: 540px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.input {
+  padding: 15px 32px;
+  width: 460px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline-width: 2px;
+  outline-color: #38CC8B;
+  border: 1px solid #DEDEDE;
+  background: #FFF;
+}
+
+
+
+.input::placeholder {
+  color: #3D3B48;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  opacity: 0.75;
+}
+
+.input_item {
+  border: 1px solid #5E54A4;
+}
+
+.input_item  {
+  color: #3D3B48;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+
+button {
+  width: 460px;
+  padding: 15px 0;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: #38CC8B;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  margin-bottom: 8px;
+}
+
+.box_text {
+  color: #BAB7D4;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.box_span {
+  color: #FF7979;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
